@@ -18,7 +18,7 @@ const defaultName = randomInteger(1, 10000); // random image name
 const websiteAddress = 'http://localhost:3000/v1/users';
 const imageFormat = '.png'; // defaul image format
 const imageName = defaultName + imageFormat; // image file name + format
-const accessTokenData = 'q24GClcTzDAAAAAAAAAALqIk0QTTnjJguMXE2RdKlsL-KJcg26rXWa4M5kt4FXc6';
+const accessTokenData = 'q24GClcTzDAAAAAAAAAAQbrMxy-ovY5pVNV2d8U1H48bUFOPKbBiZHTE6hKuXQFN';
 const dbx = new Dropbox({ accessToken: accessTokenData, fetch });
 
 // open headless chrome,go to website, make screenshot, sent to Dropbox and write link to .txt file
