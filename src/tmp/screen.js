@@ -22,7 +22,7 @@ const accessTokenData = 'q24GClcTzDAAAAAAAAAAQbrMxy-ovY5pVNV2d8U1H48bUFOPKbBiZHT
 const dbx = new Dropbox({ accessToken: accessTokenData, fetch });
 
 // open headless chrome,go to website, make screenshot, sent to Dropbox and write link to .txt file
-(async () => {
+(async() => {
     try {
         const browser = await puppeteer.launch();
         const page = await browser.newPage();
